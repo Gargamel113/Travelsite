@@ -1,0 +1,55 @@
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+input, textarea {
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: #24252A;
+    color: #edf0f1;
+    font-family: 'Eczar', serif;
+    font-size: 16px;
+}
+
+input {
+    height: 50px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.submit {
+    padding: 9px 25px;
+    width: 200px;
+    background-color: rgba(0, 135, 169, 1);
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 30px;
+}
+
+.submit:hover {
+    background-color: rgba(0, 135, 169, .8);
+}
+
+#form-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #24252A;  
+    color: #edf0f1;
+    font-family: 'Eczar', serif;
+    margin: 70px auto;
+    padding: 30px 10px;
+}
+
+#form-contact label {
+    margin-top: 20px;
+}
+
