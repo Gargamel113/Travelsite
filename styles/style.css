@@ -278,10 +278,6 @@ footer {
         width: 100%;
     }
 
-    #route-lg p {
-        margin: 0 2% 0 2%;
-    }
-
     #coast500images img {
         width: 45%;
         height: 400px;
@@ -318,12 +314,11 @@ footer {
         width: 100%;
     }
 
+    #foodandactivities p {
+        margin-top: 20px;
+    }
     #route-lg {
         width: 100%;
-    }
-
-    #route-lg p {
-        margin: 0 2% 0 2%;
     }
 
     #coast500images img {
