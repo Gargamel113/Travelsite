@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -86,6 +87,7 @@ p {
     text-align: center;
     background-color: rgba(0, 0, 0, .5);
     opacity: 0;
+    overflow: hidden;
 }
 
 .placetext:hover {
@@ -216,11 +218,15 @@ footer {
     font-size: 22px;
 }
 
+#information h1 {
+    color: #24252A;
+}
+
 #nc500 {
     display: inline-block;
     border: 2px solid rgba(0, 0, 0, .2);
     padding: 15px 5px;
-    margin: 10px auto;
+    margin: 60px auto;
     width: auto;
     font-size: 2rem;
 }

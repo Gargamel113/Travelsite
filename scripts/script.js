@@ -1,14 +1,11 @@
-$("#form-contact").hide()
+const formContact = $("#form-contact");
+
+formContact.hide()
+
 $("#form-button").click(() => {
-    if ($("#form-contact").is(":hidden")) {
-        $("#form-contact").slideDown();
-    } else {
-        $("#form-contact").slideUp();
-    }
+    formContact.slideToggle();
 })
 
 $(".ctb").click(() => {
-    if ($("#form-contact").is(":hidden")) {
         $("#form-contact").slideDown();
-    }
 })
